@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-class BarangElektonik(ABC):
+class BarangElektronik(ABC):
     
     @abstractmethod
     def beroperasi(self):

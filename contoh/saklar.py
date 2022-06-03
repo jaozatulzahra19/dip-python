@@ -6,10 +6,10 @@ class Saklar:
         self.__item = item
         self.__keaktifan = keaktifan
         
-        def berubah(self):
-            if self.__keaktifan:
-                self.__item.berhenti()
-                self.__keaktifan = False 
-            else:
-                self.__item.beroperasi()
-                self.__keaktifan = True
+    def berubah(self):
+        if self.__keaktifan:
+            self.__item.berhenti()
+            self.__keaktifan = False 
+        else:
+            self.__item.beroperasi()
+            self.__keaktifan = True

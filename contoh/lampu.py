@@ -7,4 +7,4 @@ class Lampu(BarangElektronik):
         
     def berhenti(self):
         print("Lampu berhenti menyala")
-               
+        

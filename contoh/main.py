@@ -1,4 +1,5 @@
-from contoh.saklar import Saklar 
+from barang_elektronik import BarangElektronik 
+from saklar import Saklar 
 from kipas_angin import KipasAngin  
 from lampu import Lampu 
 
